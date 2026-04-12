@@ -11,11 +11,11 @@ import FlatCards from './src/components/FlatCards';
 
 const App = (): JSX.Element => {
   return (
-    <View>
+    <SafeAreaView>
       <ScrollView>
         <FlatCards />
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 };
 
