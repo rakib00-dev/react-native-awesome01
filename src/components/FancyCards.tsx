@@ -41,7 +41,10 @@ const styles = StyleSheet.create({
     height: 180,
     borderRadius: 4,
   },
-  elevatedCard: { backgroundColor: '#fff7f7', borderRadius: 8 },
+  elevatedCard: {
+    backgroundColor: '#fff7f7',
+    borderRadius: 8,
+  },
   cardBody: {
     padding: 8,
   },
