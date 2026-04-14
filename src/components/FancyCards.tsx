@@ -62,12 +62,15 @@ const styles = StyleSheet.create({
     fontSize: 26,
     fontWeight: 'bold',
     marginBottom: 4,
+    // textAlign: 'right',
   },
   cardLabel: {
     fontSize: 15,
     fontWeight: '500',
     color: '#000000',
     marginBottom: 4,
+    flex: 1,
+    textAlign: 'right',
   },
   cardDesc: {
     fontSize: 14,
@@ -80,5 +83,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#3d3d3d',
     marginBottom: 8,
+    // textAlign: 'right',
   },
 });
