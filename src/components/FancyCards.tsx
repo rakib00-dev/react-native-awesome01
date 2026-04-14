@@ -37,6 +37,8 @@ const styles = StyleSheet.create({
   card: {
     margin: 8,
     padding: 4,
+    marginVertical: 8,
+    marginHorizontal: 16,
   },
   cardImage: {
     height: 180,
@@ -45,6 +47,11 @@ const styles = StyleSheet.create({
   elevatedCard: {
     backgroundColor: '#fff7f7',
     borderRadius: 8,
+    elevation: 3,
+    shadowOffset: {
+      height: 1,
+      width: 1,
+    },
   },
   cardBody: {
     padding: 8,
