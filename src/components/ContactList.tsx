@@ -45,8 +45,10 @@ export default function ContactList() {
                 console.log('Image Load Error: ', e.nativeEvent.error)
               }
             />
-            <Text style={styles.userName}>{name}</Text>
-            <Text style={styles.userStatus}>{status}</Text>
+            <View>
+              <Text style={styles.userName}>{name}</Text>
+              <Text style={styles.userStatus}>{status}</Text>
+            </View>
           </View>
         ))}
       </ScrollView>
@@ -63,13 +65,21 @@ const styles = StyleSheet.create({
   container: {
     padding: 9,
   },
-  userCard: {},
+  userCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    marginVertical: 6,
+    backgroundColor: '#8d3daf',
+    padding: 8,
+    borderRadius: 7,
+  },
   userImage: {
     height: 60,
     width: 60,
     backgroundColor: 'red',
     borderRadius: 30,
   },
-  userName: { color: 'white' },
-  userStatus: { color: 'white' },
+  userName: { color: 'white', fontSize: 16, fontWeight: 'bold' },
+  userStatus: { color: 'white', fontSize: 13 },
 });
