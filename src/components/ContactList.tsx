@@ -7,25 +7,29 @@ export default function ContactList() {
       uid: 1,
       name: 'Hitesh Choudhary',
       status: 'Just an extra ordinary teacher',
-      imageUrl: 'https://avatars.githubusercontent.com/u/11613311',
+      imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHenT5-Txu24tr6_jWEKDVEsJCitUPqeXxKg&s',
     },
     {
       uid: 2,
       name: 'Anurag Tiwari',
       status: 'I To Code and Teach!',
-      imageUrl: 'https://avatars.githubusercontent.com/u/94738352',
+      imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHenT5-Txu24tr6_jWEKDVEsJCitUPqeXxKg&s',
     },
     {
       uid: 3,
       name: 'Sanket Singh',
       status: 'Making your GPay smooth',
-      imageUrl: 'https://avatars.githubusercontent.com/u/29747452',
+      imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHenT5-Txu24tr6_jWEKDVEsJCitUPqeXxKg&s',
     },
     {
       uid: 4,
       name: 'Anirudh Jwala',
       status: 'Building secure Digital banks',
-      imageUrl: 'https://avatars.githubusercontent.com/u/25549847',
+      imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHenT5-Txu24tr6_jWEKDVEsJCitUPqeXxKg&s',
     },
   ];
   return (
