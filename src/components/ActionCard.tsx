@@ -77,6 +77,13 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     elevation: 3,
     backgroundColor: '#e07c24',
+    shadowOffset: {
+      width: 1,
+      height: 1,
+    },
+    shadowColor: '#333',
+    shadowOpacity: 0.8,
+    shadowRadius: 3,
   },
   headingContainer: {},
   headerText: {
