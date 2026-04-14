@@ -55,18 +55,30 @@ const styles = StyleSheet.create({
   },
   cardBody: {
     padding: 8,
+    flex: 1,
+    flexGrow: 1,
   },
   cardTitle: {
     fontSize: 26,
     fontWeight: 'bold',
+    marginBottom: 4,
   },
   cardLabel: {
+    fontSize: 15,
     fontWeight: '500',
-    color: '#727272',
+    color: '#000000',
+    marginBottom: 4,
   },
-  cardDesc: {},
+  cardDesc: {
+    fontSize: 14,
+    fontWeight: '500',
+    color: '#383838',
+    marginTop: 8,
+    marginBottom: 8,
+  },
   cardFooter: {
     fontWeight: 'bold',
-    color: '#727272',
+    color: '#3d3d3d',
+    marginBottom: 8,
   },
 });
